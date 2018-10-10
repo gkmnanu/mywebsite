@@ -1,0 +1,190 @@
+.navbar {
+    background-color: #06172c;
+}  
+#mylogo{
+    width: 200px;
+    height: 150px;
+    margin-top: -40px;
+}
+@media only screen and (max-width: 600px) {
+    #mylogo{
+        width: 150px;
+        height: 100px;
+        margin-top: -20px;
+    }
+  }
+/* gallery section */
+.mytab{
+    font-weight: bold;
+}
+ #photo-head{
+     text-align: center;
+     font-size: 35px;
+ }
+ @media only screen and (min-width: 600px) {
+    .photo-tab{
+        width: 80%;
+        margin-left: 20%;
+        margin-right: 0
+    }
+  }
+ /* card section */
+.members{
+    background-color: white;
+    margin-top: -30px;
+    padding-bottom: 40px;
+  }
+  .mycard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .mycard-1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  @media only screen and (max-width: 600px) {
+    .mycard-1 {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    .mycard-image-1{
+      border: 4px solid #FFFFFF;
+      margin-left: 20%;
+      margin-right: 20%;
+      margin-top: -60px;
+      border-radius: 50%;
+      display: block;
+      height: 160px;
+      overflow: hidden;
+      width: 160px;
+    }
+  }
+  #card-head{
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 35px;
+  }
+  .cc{
+    height: 100px;
+    background: linear-gradient(rgb(7, 124, 202), rgba(56, 255, 238, 0.911));
+  }
+  .cc-2{
+    height: 100px;
+    background: linear-gradient(rgb(202, 7, 88), rgba(255, 56, 165, 0.486));
+  }
+  .mycard-image{
+    border: 4px solid #FFFFFF;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -60px;
+    border-radius: 50%;
+    display: block;
+    height: 160px;
+    overflow: hidden;
+    width: 160px;
+  }
+  .mycard-image-1{
+    border: 4px solid #FFFFFF;
+    margin-left: 28%;
+    margin-right: 20%;
+    margin-top: -60px;
+    border-radius: 50%;
+    display: block;
+    height: 160px;
+    overflow: hidden;
+    width: 160px;
+  }
+  .mycard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card-text {
+    color: black;
+    padding: 2px 16px;
+  }
+  hr{
+    border:none;
+    height: 20px;
+       width: 100%;
+      height: 50px;
+      margin-top: 0;
+      border-bottom: 1px solid #1f1209;
+      box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px; 
+  }
+  .card-text h4{
+    font-size: 24px;
+    line-height: 28px;
+    margin: 10px 0 0;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .card-text p{
+    color:#999999;
+    margin-top: -2px;
+    text-align: center;
+  }
+  .card-icon{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+  }
+  @media only screen and (max-width: 600px) {
+    .card-icon{
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding: 10px;
+    }
+  }
+  .card-icon a{
+  padding: 10px;
+}
+/*footer section */
+footer{
+    background-color: #06172c;
+  }
+  #foot-head-1{
+    font-size: 24px;
+  }
+  #foot-head-2{
+    font-size: 24px;
+  }
+  .foot-contact span{
+    color: #d2d2d2;
+  }
+  .foot-icon a{
+    padding: 10px;
+  }
+  #copy{
+    width: 40%;
+    margin-left: 30%;
+    margin-left: 30%;
+  }
+  @media only screen and (max-width: 600px) {
+    .foot-icon a{
+      padding: 4px;
+    }
+    #copy{
+      width: 84%;
+      margin-left: 8%;
+      margin-left: 8%;
+    }
+  }
